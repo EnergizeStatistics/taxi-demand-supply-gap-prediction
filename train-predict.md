@@ -217,8 +217,8 @@ plt.show()
 
 
 
-![Alt text](results_actual.png?raw=true)
-![Alt text](results_pred.png?raw=true)
+![actual demand-supply gap](results_actual.png?raw=true)
+![predicted demand-supply gap](results_pred.png?raw=true)
 
 
 In this sample, our approach successfully predicts several areas with the highest demand-supply gaps (darkest red). The predicted heatmap also displays the areas with excess taxi supply. 
