@@ -14,7 +14,7 @@ The city map of Porto is divided into a grid, where grid size is 0.84 km by 1.1 
 
 We train a gradient boosting decision tree for this task. When exploring, we also built a multi-layer perceptron (MLP) neural network model; the performace gain did not justify the the substantially longer training time. The gradient boosting decision tree algorithm is not compatible with online learning. However, if used in a real business environment, the first opportunity to increase prediction accuracy is to utilize an online learning algorithm to dynamically adapt to new demand and supply patterns.
 
-Model performance is evaluated with Mean Absolute Error (MAE). We believe that an MAE below 0.5 would have business value. In a real-world situation, we will also consider root mean square error (RMSE) adapting for the financial cost of large prediction errors.
+Model performance is evaluated with Mean Absolute Error (MAE). We believe that an MAE below 0.5 would have business value. In a real-world situation, after gaining domain knowledge of the financial cost of large prediction errors, we may consider other performace metrics such as root mean square error (RMSE).
 
 ## Results ##
 MAE in the hold-out dataset is 0.19, suggesting that the average difference between the actual gap and predicted gap is 0.19. Below is a snapshot of the live heatmap. 
