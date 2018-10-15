@@ -3,7 +3,7 @@
 ## Description ##
 Both dedicated taxi services and ride-sharing (e.g., Uber) companies find it critical to forecast demand of trips for a particular location. Demand-supply prediction enables these companies to maximize driver utilization while ensuring that riders have service available in times of need. 
 
-By identifying areas that will likely require taxi service in the immediate future (e.g., the next 30-minute time window), our demand-supply gap prediction guides taxi drivers to specific geographic areas as granular as approximately one square mile or one square kilometer. 
+By identifying areas that will likely require taxi service in the immediate future (e.g., the next 30-minute time window), our demand-supply gap prediction guides taxi drivers to specific geographic areas as granular as approximately one square kilometer. 
 
 This repository hosts sample code that trains a supervised predictive model based on past demand/supply patterns and real-time taxi locations. Toy data used in this demo is provided by the [Kaggle Taxi Trajectory Prediction Challenge](https://www.kaggle.com/c/pkdd-15-predict-taxi-service-trajectory-i). The dataset contains GPS coordinates of the paths and starting time of each taxi trip in the city of Porto, Portugal, from July 1st, 2013 to June 30th, 2014. 
 
