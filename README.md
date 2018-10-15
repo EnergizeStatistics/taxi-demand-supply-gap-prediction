@@ -15,9 +15,7 @@ The dataset only has starting time of each trip available.
 I trained a gradient boosting decision tree 
 
 
-We intent to build Go-Search, a live heatmap which shows live prediction of supply-demand gap across area in the city. By viewing the heatmap, drivers can search which area that will need their service the most. Therefore, they can make decision to reposition themselves before the demands arises and maximize their revenues. In this way, the supply will be ready for the demand in advance so the waiting time can be minimized and the surge pricing never even has to happen.
 
-In order to achieve this, we attempt build a predictive model powered by machine learning techniques that analyze historical demand pattern and current drivers position to predict the the supply and demand gap, 1 hour in advance. This model will serve as a backend to a city heatmap showing a supply-demand gap prediction for the next hour.
 
 ## Results ##
 ![Alt text](results.png?raw=true)
